@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+@import '~normalize.css';
+@import './excel-page/header.scss';
+@import './excel-page/toolbar.scss';
+@import './excel-page/formula.scss';
+@import './excel-page/table.scss';
+@import './db-page/header.scss';
+@import './db-page/new.scss';
+@import './db-page/table.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  background-color: #fff;
+}
+
+button {
+  border: 0;
+  outline: none;
+}
+
+.excel {
+  position: relative;
+  color: #888;
+  height: 100%;
+  max-width: 100%;
+  font-size: .8rem;
+}
+
+.db {
+  
+}
+
